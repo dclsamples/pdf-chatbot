@@ -25,7 +25,7 @@ export default function Home() {
 		const body = await response.json();
 
 		if (body.success) {
-			alert("Data added successfully");
+			alert("File added successfully");
 		}
 	}, []);
 
